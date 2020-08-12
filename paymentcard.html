@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Payment</title>
+
+        <style>
+            .details{
+                border-style: solid;
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .formpop{
+                border-style: solid;
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+                display: none;
+                z-index: 9;
+            }
+
+            .adj{
+                padding-top: 70px;
+                padding-left: 500px;
+                padding-right: 500px;
+
+            }
+
+            input[type=text], select{
+                width: 82%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            input[type=number], select{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            input[type=date], select{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            input[type=password], select{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            .grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 20px;
+            }
+
+            .button{
+                background-color: black;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 25px;
+                margin: 4px 2px;
+                cursor: pointer;
+                width: 100%;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            .buttonBack{
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: #e7e4db;">
+        <div class="adj">
+            <div class="details">
+                <form action="#">
+                    <h2><label for="number">Credit Card Number</label>
+                    <input type="number" placeholder="Credit Card Number" name="number" required></h2>
+                    <h2><label for="name">Card Holder</label>
+                    <input type="text" placeholder="Card Owner Name" name="name" required></h2>
+                    <div class="grid">
+                        <div class="grid-child">
+                            <h2><label for="expiry">Expiry Date</label>
+                            <input type="date" placeholder="Expiry Date" name="expiry" required></h2>
+                        </div>
+                        <div class="grid-child">
+                            <h2><label for="cvv">CVV</label>
+                            <input type="password" placeholder="CVV" name="cvv" required></h2>
+                        </div>
+                    </div>
+                </form>
+                <div class="buttonBack">
+                    <button class="button" onClick="openForm()">Confirm</button>
+                </div>
+            </div>
+
+            <div class="formpop" id="myForm">
+                <form action="/home/student/Desktop/stuff/WTLab/orderconfirmation.html">
+              
+                  <h2><label for="otp"><b>Enter OTP recieved to *******517</b></label>
+                  <input type="password" placeholder="Enter OTP" name="otp" required></h2>
+              
+                  <button type="submit" class="button">Verify</button>
+                </form>
+            </div>
+
+        </div>
+
+        <script>
+            function openForm() {
+              document.getElementById("myForm").style.display = "block";
+            }
+        </script>
+    </body>
+
+</html>
