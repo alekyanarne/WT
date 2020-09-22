@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+	<user id="1">
+		<firstName> Amulya </firstName>
+		<lastName> Vempati </lastName>
+		<location> Hyderabad </location>
+	</user>
+	<user id="2">
+		<firstName>Chandhana</firstName>
+		<lastName>Vempati</lastName>
+		<location>Bachupally</location>
+	</user>
+	<user id="3">
+		<firstName>Nikhitha</firstName>
+		<lastName>Vegi</lastName>
+		<location>Miyapur</location>
+	</user>
+	<user id="4">
+		<firstName>Haseeb</firstName>
+		<lastName>Kumar</lastName>
+		<location>Madinaguda</location>
+	</user>
+	<user id="5">
+		<firstName>Abhinav</firstName>
+		<lastName>Erla</lastName>
+		<location>ODF</location>
+	</user>
+	<user id="6">
+		<firstName>Nishitha</firstName>
+		<lastName>Reddy</lastName>
+		<location>UP</location>
+	</user>
+	<user id="7">
+		<firstName>Keerthi</firstName>
+		<lastName>Reddy</lastName>
+		<location>Goa</location>
+	</user>
+	<user id="8">
+		<firstName>Uday</firstName>
+		<lastName>Kumar</lastName>
+		<location>Miyapur</location>
+	</user>
+	<user id="9">
+		<firstName>Thanuj</firstName>
+		<lastName>sai</lastName>
+		<location>Isnapur</location>
+	</user>
+	<user id="10">
+		<firstName>Uma </firstName>
+		<lastName>Kommana</lastName>
+		<location>Green Homes</location>
+	</user>
+</users>
+		
